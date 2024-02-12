@@ -102,6 +102,7 @@ namespace mandarOfertas
                         }
                         if (estado!=true)
                         {
+                            
                             break;
                         }
                         if (pos > 0)
@@ -133,6 +134,11 @@ namespace mandarOfertas
                             Thread.Sleep(1000);
 
                         }
+                        if (estado != true)
+                        {
+
+                            break;
+                        }
                         if (!(txtTexto.Text == "") && !(chxIncluirTexto.Checked))
                         {
                             SendKeys.SendWait(texto);
@@ -155,8 +161,12 @@ namespace mandarOfertas
                             lblPorcentaje.Text = progreso.ToString().Insert(0, "%");
                         }
 
-                        
-                       
+                        if (estado != true)
+                        {
+
+                            break;
+                        }
+
                         Thread.Sleep(2000);
                         SendKeys.SendWait("^w");
                         Thread.Sleep(3000);
@@ -170,7 +180,11 @@ namespace mandarOfertas
                         SendKeys.SendWait("{ENTER}");
                         Thread.Sleep(1000);
                         SendKeys.SendWait("{ENTER}");
-                        
+                        if (estado != true)
+                        {
+
+                            break;
+                        }
 
                         Thread.Sleep(1000);
                         //SendKeys.SendWait("{ESC}");
@@ -194,7 +208,7 @@ namespace mandarOfertas
                 
                               
              
-                MessageBox.Show("Tarea terminada.. Mensajes enviados a " + n + " Contactos ", "Final",MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Tarea terminada.. Mensajes enviados ", "Final",MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 
 
