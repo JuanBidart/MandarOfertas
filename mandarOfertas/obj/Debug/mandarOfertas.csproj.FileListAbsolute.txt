@@ -1,0 +1,11 @@
+C:\Users\Juan Diego\Desktop\prueba visual\mandarOfertas\mandarOfertas\bin\Debug\mandarOfertas.exe.config
+C:\Users\Juan Diego\Desktop\prueba visual\mandarOfertas\mandarOfertas\bin\Debug\mandarOfertas.exe
+C:\Users\Juan Diego\Desktop\prueba visual\mandarOfertas\mandarOfertas\bin\Debug\mandarOfertas.pdb
+C:\Users\Juan Diego\Desktop\prueba visual\mandarOfertas\mandarOfertas\obj\Debug\mandarOfertas.csproj.AssemblyReference.cache
+C:\Users\Juan Diego\Desktop\prueba visual\mandarOfertas\mandarOfertas\obj\Debug\mandarOfertas.Form1.resources
+C:\Users\Juan Diego\Desktop\prueba visual\mandarOfertas\mandarOfertas\obj\Debug\mandarOfertas.Properties.Resources.resources
+C:\Users\Juan Diego\Desktop\prueba visual\mandarOfertas\mandarOfertas\obj\Debug\mandarOfertas.csproj.GenerateResource.cache
+C:\Users\Juan Diego\Desktop\prueba visual\mandarOfertas\mandarOfertas\obj\Debug\mandarOfertas.csproj.CoreCompileInputs.cache
+C:\Users\Juan Diego\Desktop\prueba visual\mandarOfertas\mandarOfertas\obj\Debug\mandarOfertas.exe
+C:\Users\Juan Diego\Desktop\prueba visual\mandarOfertas\mandarOfertas\obj\Debug\mandarOfertas.pdb
+C:\Users\Juan Diego\Desktop\prueba visual\mandarOfertas\mandarOfertas\obj\Debug\mandarOfertas.Form2.resources
