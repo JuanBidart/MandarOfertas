@@ -66,7 +66,7 @@
             // 
             this.txtContactos.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtContactos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContactos.Location = new System.Drawing.Point(37, 316);
+            this.txtContactos.Location = new System.Drawing.Point(39, 316);
             this.txtContactos.Name = "txtContactos";
             this.txtContactos.Size = new System.Drawing.Size(89, 24);
             this.txtContactos.TabIndex = 1;
@@ -86,7 +86,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(158, 291);
+            this.label2.Location = new System.Drawing.Point(226, 289);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(87, 24);
             this.label2.TabIndex = 3;
@@ -97,7 +97,7 @@
             this.lblContador.AutoSize = true;
             this.lblContador.Font = new System.Drawing.Font("Yu Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContador.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblContador.Location = new System.Drawing.Point(179, 315);
+            this.lblContador.Location = new System.Drawing.Point(244, 313);
             this.lblContador.Name = "lblContador";
             this.lblContador.Size = new System.Drawing.Size(45, 35);
             this.lblContador.TabIndex = 4;
@@ -111,7 +111,7 @@
             // 
             this.lblPosicion.AutoSize = true;
             this.lblPosicion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPosicion.Location = new System.Drawing.Point(27, 365);
+            this.lblPosicion.Location = new System.Drawing.Point(433, 289);
             this.lblPosicion.Name = "lblPosicion";
             this.lblPosicion.Size = new System.Drawing.Size(108, 24);
             this.lblPosicion.TabIndex = 10;
@@ -121,7 +121,7 @@
             // 
             this.txtPos.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPos.Location = new System.Drawing.Point(37, 392);
+            this.txtPos.Location = new System.Drawing.Point(441, 313);
             this.txtPos.Name = "txtPos";
             this.txtPos.Size = new System.Drawing.Size(89, 24);
             this.txtPos.TabIndex = 9;
@@ -132,7 +132,7 @@
             this.txtTexto.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTexto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTexto.ForeColor = System.Drawing.Color.Black;
-            this.txtTexto.Location = new System.Drawing.Point(282, 321);
+            this.txtTexto.Location = new System.Drawing.Point(263, 390);
             this.txtTexto.Multiline = true;
             this.txtTexto.Name = "txtTexto";
             this.txtTexto.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -143,7 +143,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(416, 297);
+            this.label4.Location = new System.Drawing.Point(394, 363);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(147, 24);
             this.label4.TabIndex = 12;
@@ -152,7 +152,7 @@
             // chxPortapapeles
             // 
             this.chxPortapapeles.AutoSize = true;
-            this.chxPortapapeles.Location = new System.Drawing.Point(280, 280);
+            this.chxPortapapeles.Location = new System.Drawing.Point(405, 542);
             this.chxPortapapeles.Name = "chxPortapapeles";
             this.chxPortapapeles.Size = new System.Drawing.Size(136, 17);
             this.chxPortapapeles.TabIndex = 13;
@@ -189,10 +189,10 @@
             // 
             this.pbProgreso.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.pbProgreso.ForeColor = System.Drawing.SystemColors.Control;
-            this.pbProgreso.Location = new System.Drawing.Point(33, 429);
+            this.pbProgreso.Location = new System.Drawing.Point(38, 565);
             this.pbProgreso.Maximum = 1000;
             this.pbProgreso.Name = "pbProgreso";
-            this.pbProgreso.Size = new System.Drawing.Size(526, 30);
+            this.pbProgreso.Size = new System.Drawing.Size(503, 30);
             this.pbProgreso.Step = 1;
             this.pbProgreso.TabIndex = 16;
             // 
@@ -209,7 +209,7 @@
             // chxIncluirTexto
             // 
             this.chxIncluirTexto.AutoSize = true;
-            this.chxIncluirTexto.Location = new System.Drawing.Point(280, 301);
+            this.chxIncluirTexto.Location = new System.Drawing.Point(39, 542);
             this.chxIncluirTexto.Name = "chxIncluirTexto";
             this.chxIncluirTexto.Size = new System.Drawing.Size(143, 17);
             this.chxIncluirTexto.TabIndex = 18;
@@ -221,7 +221,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.ClientSize = new System.Drawing.Size(581, 482);
+            this.ClientSize = new System.Drawing.Size(581, 607);
             this.Controls.Add(this.chxIncluirTexto);
             this.Controls.Add(this.lblPorcentaje);
             this.Controls.Add(this.pbProgreso);

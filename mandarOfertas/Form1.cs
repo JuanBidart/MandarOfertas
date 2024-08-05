@@ -167,9 +167,9 @@ namespace mandarOfertas
                             break;
                         }
 
-                        Thread.Sleep(2000);
-                        SendKeys.SendWait("^w");
                         Thread.Sleep(3000);
+                        SendKeys.SendWait("^w");
+                        Thread.Sleep(2000);
                         SendKeys.SendWait("+{F10}");
                         Thread.Sleep(1000);
                         for (int i = 0; i < 5; i++)
@@ -194,10 +194,9 @@ namespace mandarOfertas
 
                 });
 
-                while (estado)
-                {
-                    tarea2.Start();
-                }
+              
+                tarea2.Start();
+                
                 
                 await tarea2;
                 tarea2.Dispose();
@@ -248,5 +247,6 @@ namespace mandarOfertas
                 estado = false;
                 
         }
-    }
+
+      
 }
